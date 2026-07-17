@@ -62,6 +62,11 @@ func TestAsteroidCollision(t *testing.T) {
 			want:      []int{1},
 		},
 		{
+			name:      "ignore asteroids already destroyed",
+			asteroids: []int{-2, 1, -2, -2},
+			want:      []int{-2, -2, -2},
+		},
+		{
 			name:      "maximum asteroid sizes collide",
 			asteroids: []int{1000, -1000},
 			want:      []int{},
@@ -70,7 +75,7 @@ func TestAsteroidCollision(t *testing.T) {
 
 	for _, tc := range testCases {
 		t.Run(tc.name, func(t *testing.T) {
-			got := asteroidCollision1(tc.asteroids)
+			got := asteroidCollision2(tc.asteroids)
 			if !reflect.DeepEqual(got, tc.want) {
 				t.Errorf("asteroidCollision(%v) = %v, want %v", tc.asteroids, got, tc.want)
 			}
