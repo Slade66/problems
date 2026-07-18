@@ -42,7 +42,7 @@ func TestDecodeString(t *testing.T) {
 
 	for _, tc := range testCases {
 		t.Run(tc.name, func(t *testing.T) {
-			got := decodeString1(tc.s)
+			got := decodeString2(tc.s)
 			if got != tc.want {
 				t.Errorf("decodeString(%q) = %q, want %q", tc.s, got, tc.want)
 			}
