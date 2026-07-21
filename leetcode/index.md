@@ -4,5 +4,7 @@
 | 1456. Maximum Number of Vowels in a Substring of Given Length | 简单 | 滑动窗口 |
 | 1657. Determine if Two Strings Are Close | 简单 | 哈希表、排序 |
 | 2390. Removing Stars From a String | 简单 | 栈 |
+| 649. Dota2 Senate | 简单 | 模拟 |
+| 2215. Find the Difference of Two Arrays | 简单 | 哈希表 |
 | 735. Asteroid Collision | 中等 | 栈 |
 | 394. Decode String | 中等 | 栈 |
