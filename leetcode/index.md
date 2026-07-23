@@ -6,5 +6,6 @@
 | 2390. Removing Stars From a String | 简单 | 栈 |
 | 649. Dota2 Senate | 简单 | 模拟 |
 | 2215. Find the Difference of Two Arrays | 简单 | 哈希表 |
+| 328. Odd Even Linked List | 简单 | 链表 |
 | 735. Asteroid Collision | 中等 | 栈 |
 | 394. Decode String | 中等 | 栈 |
