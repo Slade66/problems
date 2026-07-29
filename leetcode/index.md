@@ -7,5 +7,7 @@
 | 649. Dota2 Senate | 简单 | 模拟 |
 | 2215. Find the Difference of Two Arrays | 简单 | 哈希表 |
 | 328. Odd Even Linked List | 简单 | 链表 |
+| 104. Maximum Depth of Binary Tree | 简单 | 递归、深度优先搜索 |
+| 1448. Count Good Nodes in Binary Tree | 简单 | 递归、深度优先搜索 |
 | 735. Asteroid Collision | 中等 | 栈 |
 | 394. Decode String | 中等 | 栈 |
