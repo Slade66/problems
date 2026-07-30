@@ -9,5 +9,6 @@
 | 328. Odd Even Linked List | 简单 | 链表 |
 | 104. Maximum Depth of Binary Tree | 简单 | 递归、深度优先搜索 |
 | 1448. Count Good Nodes in Binary Tree | 简单 | 递归、深度优先搜索 |
+| 700. Search in a Binary Search Tree | 简单 | 二叉搜索树、二分查找 |
 | 735. Asteroid Collision | 中等 | 栈 |
 | 394. Decode String | 中等 | 栈 |
